@@ -1,0 +1,144 @@
+p,li
+{
+        font-family : "Trebuchet MS", "Verdana", "Georgia", serif;
+        font-size : 14px ;
+}
+p
+{
+        text-indent : 20px;
+}
+a:hover
+{
+        color : rgb(90,195,244);
+}
+h2,h3,h4
+{
+        font-family : "Trebuchet MS", "Verdana", "Georgia", serif;
+        color : blue;
+}
+body
+{
+        width: 800px ;
+        text-align: justify;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 12px;
+        margin: auto;
+        background-color : rgb(90,195,244);
+}
+#banniere
+{
+        width: 500px;
+        height: 128px;
+        background-image: url("../Images/Banniere.png");
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+}
+#menu
+{
+        float: left; /* Le menu flottera à gauche */
+        width: 150px; /* Très important : donner une taille au menu */
+}
+.elementmenu
+{
+        background-color: lime;
+        border: 1px solid green;
+        margin-bottom: 15px; /* Pour éviter que les éléments du menu ne soient trop collés */
+}
+.elementmenu h4
+{
+        text-align: center;
+}
+#corps
+{
+        margin-left: 165px; /* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+        margin-bottom: 20px; /* Pour éviter que le corps colle trop au pied de page en-dessous */
+        padding: 7px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+        color: black;
+        background-color: lime; /* Une couleur de fond pour le corps */
+        border: 1px solid green; /* Une bordure pour bien marquer les limites du corps */
+}
+#corps h2
+{
+        text-align: center;
+}
+#piedpage
+{
+        margin-left: 165px;  
+        padding: 7px;
+        text-align: justify;
+        color: black;
+        background-color: lime;
+        border: 1px solid green;
+}
+.rouge
+{
+        color: red;
+}
+.vert
+{
+        color: green;
+}
+.carre
+{
+        list-style-type: square;
+}
+.alinea, h3
+{
+        text-indent: 15px;
+}
+.flottantgauche
+{
+        float: left;
+}
+.flottantdroit
+{
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 5px;
+}
+.dessous
+{
+        clear: both;
+}
+caption
+{
+        margin: auto;
+        font-family : "Trebuchet MS", "Verdana", "Georgia", serif;
+        font-size : 14px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color : blue;
+}
+table
+{
+        border-collapse: collapse;
+        margin : auto;
+        font-family : "Trebuchet MS", "Verdana", "Georgia", serif;
+        font-size : 14px;
+        margin-bottom: 20px;
+}
+td
+{
+        border: 1px solid green;
+}
+th
+{
+        border: 1px solid green;
+        text-align : center;
+        color : blue ;
+}
+.tablatomes
+{
+        border: 1px solid green ;
+        fontfamily : "Trebuchet MS", "Verdana", "Georgia", serif;
+        text-align : center;
+        height : 36px ;
+        text-align : center;
+        vertical-align : center;
+        font-size : 14px;
+}
+ul,li
+{
+        text-indent : 0px;
+}
