@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="utf-8" />
-  <meta name="author" content="Script Tutorials" />
+  <meta name="author" content="Burdigala" />
   <title>Manche Open School</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -17,8 +17,8 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="//maps.google.com/maps/api/js?sensor=true"></script>
   <script src="js/main.js"></script>
-</body>
-</html>
+
+
 
 <!-- barre de navigation -->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -30,16 +30,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">MANCHE OPEN SCHOOL</a>
+      <a class="navbar-brand nav-color" style="color: red;" href="#">MANCHE OPEN SCHOOL</a>
     </div>
 
-    <div class="collapse navbar-collapse" id="navbar-collapse-main">
+    <div class="collapse navbar-collapse nav-color nav-text" id="navbar-collapse-main">
       <ul class="nav navbar-nav navbar-right nav-text">
-        <li><a href="#home">Accueil</a></li>
-        <li><a href="#about">A propos</a></li>
-        <li><a href="#services">Au Programme</a></li>
-        <li><a href="#information">Partenaires</a></li>
-        <li><a href="#google_map">Contact</a></li>
+        <li><a href="#home" style="color: red;">Accueil</a></li>
+        <li><a href="#about" style="color: red;">A propos</a></li>
+        <li><a href="#services" style="color: red;">Au Programme</a></li>
+        <li><a href="#information" style="color: red;">Partenaires</a></li>
+        <li><a href="#google_map" style="color: red;">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -57,46 +57,52 @@
 <!-- /Accueil-->
 
 <!-- A propos -->
-<div id="about" class="pad-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <img src="img/Bulot.png"  />
+<div id="about" class="pad-section" >
+  
+      <div class="container">
+        
+          <h3 class="text-center">Qui sommes nous ?</h3> <hr/>
+          <div class="row">
+            <div class="col-sm-6">
+              <div style="width: 500px">                
+                <img src="img/Bulots.png" />
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div style="text-align:justify" ><h2>La Manche Open School (MoS pour les intimes…) est une école du numérique, ouverte à tous et gratuite.</h2>
+              <p class="lead" style="font-size:18px">Les formations dans le secteur numérique présentes sur le territoire, pour la plupart, ne couvrent pas les besoins des acteurs locaux. Les personnes formées, partent dans d’autres régions, ou suivent une formation intra-entreprise avant d’entrer en production. 50000 postes sont restés non pourvus dans le numérique en 2014 en France.Nous avons donc décidé de lancer une formation destinée à former des profils de responsables numériques en leur transmettant les compétences techniques nécessaires.
+              Les profils recherchés sont totalement ouverts, la passion, et la motivation feront foi pour la sélection.
+              Alors, que vous soyez sans emploi, en reconversion, en décrochage scolaire, ou encore un jeune non diplômé, rejoignez la MoS et devenez les futurs couteaux suisses du numérique manchois !</p>
+              </div>
+            </div>        
+        </div>
       </div>
-      <div class="col-sm-6 text-center">
-        <h2>La Manche Open School (MoS pour les intimes…) est une école du numérique, ouverte à tous et gratuite.</h2>
-        <p class="lead">Les formations dans le secteur numérique présentent sur le territoire, pour la plupart, ne couvrent pas les besoins des acteurs locaux. Les personnes formées, partent dans d’autres régions, ou suivent une formation intra-entreprise avant d’entrer en production. 50000 postes sont restés non pourvus dans le numérique en 2014 en France.Nous avons donc décidé de lancer une formation destinée à former des profils de responsables numériques en leur transmettant les compétences techniques nécessaires.
-        Les profils recherchés sont totalement ouverts, la passion, et la motivation feront foi pour la sélection.
-        Alors, que vous soyez sans emploi, en reconversion, en décrochage scolaire, ou encore un jeune non diplômé, rejoignez la MoS et devenez les futurs couteaux suisses du numérique manchois !</p>
-      </div>
-    </div>
-  </div>
 </div>
-<!-- /A propos -->
+  <!-- /A propos -->
 
 <!-- Au programme -->
 <div id="services" class="pad-section">
   <div class="container">
-    <h2 class="text-center">Au programme</h2> <hr />
-    <div class="row text-center">
+    <h2 class="text-center">Au programme</h2> <hr/>
+    <div class="row text-center" style="font-size: 18px " >
       <div class="col-sm-3 col-xs-6">
         <i class="glyphicon glyphicon-cloud"> </i>
-        <h4>RESEAU</h4>
+        <h3>RESEAU</h3>
         <p>Ethernet, TCP/IP, Routage, VPN, protocoles SSH-ICMP-NTP-PXE...
       </div>
       <div class="col-sm-3 col-xs-6">
         <i class="glyphicon glyphicon-leaf"> </i>
-        <h4>SYSTEME</h4>
+        <h3>SYSTEME</h3>
         <p>Instalation système Linux, notions de base système : Partitionement, Arborescence Linux, Droits utilsiateurs UNIX, base de système Linux, Base de Système windows</p>
       </div>
       <div class="col-sm-3 col-xs-6">
         <i class="glyphicon glyphicon-phone-alt"> </i>
-        <h4>INFRASTRUCTURE</h4>
+        <h3>INFRASTRUCTURE</h3>
         <p>Serveur de virtualisation, serveur de base de donnée SQL, serveur DNS, serveur DHCP, serveur web, serveur FTP, serveur de stockage réseau, serveur de sauvegarde, serveur de téléphonie IP, serveur proxy, serveur de messagerie...</p>
       </div>
       <div class="col-sm-3 col-xs-6">
         <i class="glyphicon glyphicon-bullhorn"> </i>
-        <h4>DEVELOPPEMENT</h4>
+        <h3>DEVELOPPEMENT</h3>
         <p>HTML/CSS, Javascript, PHP niveau 1 et 2, CMS, Symphonie 2, IDE, GIT, Débug...</p>
       </div>
     </div>
@@ -107,12 +113,13 @@
 
 <!-- Partenaires  -->
 <div id="information" class="pad-section">
+<h3 class="text-center">Les Partenaires</h3> <hr/>
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-6">
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h1 class="panel-title">Partenaires Financiers</h1>
+            <h1 class="text-center panel-title">Partenaires Financiers</h1>
           </div>
           <div class="panel-body lead">
            <a href="http://conseil.general.manche.fr/"><img src="img/manche.png"></a>
@@ -128,7 +135,7 @@
       <div class="col-md-6 col-sm-6">
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h1 class="panel-title">Partenaires Technologiques</h1>
+            <h1 class="text-center panel-title">Partenaires Technologiques</h1>
           </div>
           <div class="panel-body lead">
             <a href="http://www.factorfx.com/"><img src="img/LogoFFX.png"></a>
@@ -145,7 +152,9 @@
 </div>
 <!-- /partenaires-->
 
-<div id="google_map" class="pad-section">
+<div class="Map-contact"><div id="google_map" class="pad-section">
+<div class="container">
+    <h2 class="text-center">Nous Contacter</h2> <hr/>
 <!-- google map -->
   <div class="col-md-6 col-sm-6">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.8525280829117!2d-1.5666460846480823!3d48.84195157928584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480c1acd1d4e774f%3A0x5d2d7fa50fdeacd8!2sFACTORFX!5e0!3m2!1sfr!2sfr!4v1445351601536" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -153,32 +162,46 @@
 <!-- /google map -->
 
 <!--contact-->
-    <div class="col-md-6 col-sm-6">
-    <form id="myform" class="cssform" action="">
-
-  <p><label for="user">Nom :</label>
-  <input type="text" id="user" value="" /></p>
-
-  <p><label for="emailaddress">Email :</label>
-  <input type="text" id="emailaddress" value="" /></p>
-
-  <p><label for="comments">Message :</label>
-  <textarea id="comments" rows="5" cols="25"></textarea></p>
-
-  <p><label for="comments">Sexe :</label>
-  Homme :<input type="radio" name="sex" />
-  Femme :<input type="radio" name="sex" /></p>
-  </div></p>
-</form>
-
-
+ 
+<div class="col-md-6 col-sm-6">
+  <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post">
+  <div>
+      <label for="name">Nom</label>
+      <input type="text" id="name" name="user_name">
     </div>
+
+    <div>
+      <label for="name">Prénom</label>
+      <input type="text" id="name" name="user_firstname">
+    </div>
+
+    <div>
+      <label for="name">Téléphone</label>
+      <input type="text" id="name" name="user_phone">
+    </div>
+
+    <div>
+      <label for="mail">E-mail</label>
+      <input type="email" id="mail" name="user_email">
+    </div>
+
+    <div>
+      <label for="msg">Message</label>
+      <textarea id="msg" name="user_message"></textarea>
+    </div>
+   
+    <div class="button">
+      <button type="submit">Send your message</button>
+    </div>
+  </form>
+  </div>
 </div>
+</body>
 
 <!-- footer -->
 <footer>
   <div class="container">
-    <p class="text-right">Copyright &copy; Burdigala 2015</p>
+    <p class="text-right footer ">Copyright &copy; Burdigala 2015 - Tous droits réservés</p>
   </div>
 </footer>
 <!-- /footer -->
